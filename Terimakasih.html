@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terima Kasih</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+        /* Animasi untuk teks terima kasih */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .thank-you-text {
+            font-family: 'Pacifico', cursive;
+            font-size: 3rem;
+            text-align: center;
+            color: #1a237e; /* Warna biru gelap */
+            animation: fadeIn 2s ease-in-out; /* Animasi muncul */
+        }
+
+        .thank-you-subtext {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+            color: #424242; /* Warna abu-abu gelap */
+            animation: fadeIn 3s ease-in-out; /* Animasi muncul lebih lambat */
+        }
+
+        /* Gaya untuk tombol kembali */
+        .btn-back {
+            margin-top: 20px;
+            animation: fadeIn 4s ease-in-out; /* Animasi muncul paling lambat */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper blue darken-3">
+            <a href="#" class="brand-logo center">Terima Kasih</a>
+        </div>
+    </nav>
+
+    <!-- Konten Terima Kasih -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center">
+                <!-- Teks Terima Kasih -->
+                <h1 class="thank-you-text">Terima Kasih!</h1>
+                <p class="thank-you-subtext">Atas kunjungan dan dukungan Anda.</p>
+
+                <!-- Tombol Kembali ke Home -->
+                <a href="index.html" class="btn waves-effect waves-light blue darken-3 btn-back">
+                    <i class="material-icons left">arrow_back</i> Kembali ke Home
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Inisialisasi komponen JavaScript (jika diperlukan) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit(); // Inisialisasi komponen Materialize
+        });
+    </script>
+</body>
+</html>

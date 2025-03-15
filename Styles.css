@@ -1,0 +1,60 @@
+/* Gaya untuk header */
+.header-text {
+    font-family: 'Pacifico', cursive; /* Font unik untuk header */
+    font-size: 3rem; /* Ukuran font besar */
+    color: #1a237e; /* Warna biru gelap */
+    margin-top: 20px; /* Jarak dari atas */
+}
+
+/* Gaya untuk paragraf */
+.paragraph-text {
+    font-family: 'Roboto Condensed', sans-serif; /* Font untuk paragraf */
+    font-size: 1.2rem; /* Ukuran font sedang */
+    color: #424242; /* Warna abu-abu gelap */
+    line-height: 1.6; /* Jarak antar baris */
+}
+
+/* Gaya untuk card title */
+.card-title {
+    font-family: 'Pacifico', cursive; /* Font unik untuk judul card */
+    font-size: 2rem; /* Ukuran font besar */
+    margin-bottom: 20px; /* Jarak dari konten di bawahnya */
+}
+
+/* Gaya untuk list di dalam card */
+.card-content ul li {
+    margin-bottom: 10px; /* Jarak antar item list */
+}
+
+/* Gaya untuk paragraf sinopsis */
+.sinopsis {
+    text-align: justify; /* Rata kanan kiri */
+    text-justify: inter-word; /* Memperbaiki spasi antar kata */
+    line-height: 1.6; /* Jarak antar baris */
+    margin-bottom: 20px; /* Jarak dari elemen di bawahnya */
+}
+
+/* Gaya untuk Penulis, Genre, dan Rating */
+.left-align-text {
+    text-align: left; /* Rata kiri */
+    margin-left: 0; /* Pastikan tidak ada margin kiri */
+    padding-left: 0; /* Pastikan tidak ada padding kiri */
+}
+
+/* Gaya untuk gambar */
+img.responsive-img {
+    border-radius: 10px; /* Sudut gambar melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan gambar */
+    margin-bottom: 20px; /* Jarak dari konten di bawahnya */
+}
+
+.card-content ul li a {
+    font-family: 'Roboto Condensed', sans-serif; /* Font untuk konten card */
+    font-size: 1rem; /* Ukuran font standar */
+    color: white; /* Warna teks putih */
+    text-decoration: none; /* Hilangkan underline pada link */
+}
+
+.card-content ul li a:hover {
+    color: #ffeb3b; /* Warna teks kuning saat dihover */
+}
